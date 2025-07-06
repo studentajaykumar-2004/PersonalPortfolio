@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+<section class="home">
+    <h1>Welcome to My Portfolio</h1>
+     <img src="{{ url_for('static', filename='images/profilephoto.jpg') }}" alt="Profile Picture" class="profile-img">
+    <p>👋 Hi, I'm Kola Ajay Kumar
+I'm a passionate Computer Science undergraduate with a strong interest in Web Development, Cyber Security, and Machine Learning. I love building practical projects, exploring new technologies, and continuously improving my skills. This portfolio showcases my work, achievements, and journey as a tech enthusiast.</p>
+    
+</section>
+
+
+{% endblock content %}

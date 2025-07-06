@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="projects">
+    <h2>My Projects</h2>
+    <ul>
+        <li>
+            <strong>ML-based Human Heart Monitoring System</strong><br>
+            <img src="{{ url_for('static', filename='images/heart_img3.webp') }}" alt="heart health system" class="categories-grid">
+            <br>
+
+            Tech: Python, Flask, ML<br>
+
+            <a href="https://github.com/yourname/heart-disease-predictor">GitHub</a>
+        </li>
+        <li>
+            <strong>forniture store website
+            </strong><br>
+            <img src="{{ url_for('static', filename='images/furniturestore.jpg') }}" alt="heart health system" class="categories-grid">
+            <br>
+            Tech: Flask, SQLite <br>
+            <a href="https://github.com/yourname/todo-flask-app">GitHub</a>
+        </li>
+    </ul>
+</section>
+{% endblock content%}
